@@ -1,0 +1,48 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling the background color for the body element */
+body {
+    background-color: #f1f2f4;
+}
+.nav-link{
+font-size:20px;
+font-weight:bold;
+color:white; !important
+
+}
+.nav-item{
+padding-left:50px;
+}
+
+img{
+border:2px solid white;
+border-radius:10px;
+}
+.Category-container{
+  width: 100%;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 10px;
+}
+.Category-container img{
+    width: 100px;
+    height: 100px;
+}
+.Offer-Banner img{
+width:100%;
+height:200px;
+}
+.Offer-Banner{
+margin:30px;
+}
+
+
